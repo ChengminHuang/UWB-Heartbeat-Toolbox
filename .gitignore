@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment and editors
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Dataset
+/data/*
+!/data/README.md
+!/data/sample/
+/data/sample/*
+!/data/sample/measurement.json
+!/data/sample/background.json
+
+*.pcap
+*.pcapng
+
+# Generated outputs
+/runs/
+/outputs/
+*.log
+.DS_Store

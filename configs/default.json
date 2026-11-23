@@ -1,0 +1,14 @@
+{
+  "range_min_m": 0.3,
+  "range_max_m": 7.65,
+  "window_sec": 20.0,
+  "hop_sec": 1.0,
+  "plot_every": 1,
+  "detection_threshold": 2000.0,
+  "complex_var_threshold": null,
+  "resp_null_amplitude": 0.1,
+  "heart_null_amplitude": 0.01,
+  "vmd_k": 5,
+  "vmd_alpha": 1000.0,
+  "vmd_plot_format": "png"
+}

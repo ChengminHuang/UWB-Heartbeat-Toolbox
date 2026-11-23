@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+title: "UWB-Heartbeat-Toolbox"
+type: software
+version: 0.2.0
+
+authors:
+  - family-names: "Huang"
+    given-names: "Chengmin"
+
+abstract: "A Python toolbox for UWB radar-based respiration and heartbeat signal processing."

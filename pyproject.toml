@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uwb-heartbeat-toolbox"
+version = "0.2.0"
+description = "UWB radar respiration and heartbeat signal processing"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21,<2",
+    "scipy>=1.7,<1.14",
+    "matplotlib>=3.5,<3.10",
+]
+
+[project.scripts]
+uwb-heartbeat = "uwb_heartbeat_toolbox.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+uwb_heartbeat_toolbox = ["LICENSE-vmdpy.txt"]
